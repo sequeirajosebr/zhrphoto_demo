@@ -1,0 +1,26 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="br.com.pushjob_zhrphoto_demo.controller.View1" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" showNavButton="true" navButtonPress="back">
+				<footer>
+					<Toolbar class="sapContrast sapContrastPlus" width="100%" id="__toolbar1">
+						<content>
+							<ToolbarSpacer id="__spacer0"/>
+							<Button width="100px" id="__button0" icon="sap-icon://bar-code" press="onpress"/>
+						</content>
+					</Toolbar>
+				</footer>
+				<content>
+					<ObjectHeader title="" icon="" titleActive="true" id="__header0"/>
+					<Panel id="__panel0" headerText="Employee" expandable="true" expanded="true" backgroundDesign="Transparent">
+						<content>
+							<Image width="140px" height="140px" id="__image0"/>
+							<Label width="100%" id="me"/>
+						</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
